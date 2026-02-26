@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Grade Calculator PRO</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+    <h1>🎓 Grade Calculator PRO</h1>
+
+    <button class="darkBtn" onclick="toggleDark()">🌙 Dark Mode</button>
+
+    <div id="subjects"></div>
+
+    <div class="controls">
+        <button onclick="addSubject()">➕ Add Subject</button>
+        <button onclick="calculate()">📊 Calculate</button>
+    </div>
+
+    <div class="result">
+        <p>Total: <span id="total">0</span></p>
+        <p>Average: <span id="average">0</span></p>
+        <p>Percentage: <span id="percentage">0%</span></p>
+        <p>GPA: <span id="gpa">0</span></p>
+        <h2 id="grade">Grade: -</h2>
+        <h3 id="status"></h3>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
